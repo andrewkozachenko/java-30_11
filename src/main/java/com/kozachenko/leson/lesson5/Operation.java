@@ -1,13 +1,13 @@
 package com.kozachenko.leson.lesson5;
 
 public abstract class Operation {
-    public abstract int sum(int a, int b);
+    public abstract Number sum(Number a, Number b);
 
-    public abstract int multiplication(int a, int b);
+    public abstract Number multiplication(Number a, Number b);
 
-    public abstract int divide(int a, int b);
+    public abstract Number divide(Number a, Number b);
 
-    public abstract int difference(int a, int b);
+    public abstract Number difference(Number a, Number b);
 
     public int mod(int a, int b){
         return a%b;
