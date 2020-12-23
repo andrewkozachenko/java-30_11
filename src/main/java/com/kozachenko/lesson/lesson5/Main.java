@@ -1,4 +1,4 @@
-package com.kozachenko.leson.lesson5;
+package com.kozachenko.lesson.lesson5;
 
 public class Main {
     public static void main(String[] args) {
