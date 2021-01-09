@@ -1,5 +1,7 @@
 package com.kozachenko.lesson.lesson9.exception;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Arrays;
 
@@ -30,6 +32,11 @@ public class Main {
             System.out.println("Exception catch");
         } finally {
             System.out.println("I am finally block of code");
+        }
+        try (FileInputStream fis = new FileInputStream("name")){
+            fis.read();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
